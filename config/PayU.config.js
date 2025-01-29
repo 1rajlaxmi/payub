@@ -1,4 +1,6 @@
+require('dotenv').config()
 const payu = require("payu-websdk");
+
 
 const MERCHANT_KEY = process.env.MERCHANT_KEY;
 const MERCHANT_SALT = process.env.MERCHANT_SALT;
