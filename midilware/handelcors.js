@@ -10,7 +10,7 @@ export const handelcors =  (req, res, next) => {
         
 
         const allowedOrigins = [
-            'http://localhost:5173', 'https://payuf.onrender.com' // Allowed origin for frontend (can be localhost, domain)
+            'http://localhost:5173', 'https://payuf.onrender.com' ,'https://reactvite-drab.vercel.app/'// Allowed origin for frontend (can be localhost, domain)
         ];
         
         cors({
