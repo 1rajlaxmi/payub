@@ -30,7 +30,7 @@ app.use(bodyParser.json());
 
 // CORS Configuration for all routes
 const allowedOrigins = [
-    'http://localhost:5173', // Allowed origin for frontend (can be localhost, domain)
+    'http://localhost:5173', 'https://payuf.onrender.com'// Allowed origin for frontend (can be localhost, domain)
 ];
 
 // General CORS for all routes except for /verifypayment/:txnid
