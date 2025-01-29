@@ -23,8 +23,8 @@ const initiatePayment = (req , res)=>{
         firstname : firstname,
         email : email,
         phone : phone,
-        surl : `http://localhost:${PORT}/api/verifypayment/${txnid}`,
-        furl : `http://localhost:${PORT}/api/verifypayment/${txnid}`,
+        surl : `${process.env.VERIFY_URL}/api/verifypayment/${txnid}`,
+        furl : `${process.env.VERIFY_URL}/api/verifypayment/${txnid}`,
         hash:hash
     }
 
